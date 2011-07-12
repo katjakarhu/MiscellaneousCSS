@@ -1,5 +1,5 @@
 /* 
-   NOT YET FULLY USABLE
+   NOT ALL SHAPES YET USABLE
 
    Dynamic CSS shapes, change only container size
 
@@ -26,36 +26,39 @@
 */
 
 .container-small { 
+                   clear:both;
                    height: 100px; 
                    width: 100px; 
                    font-family: "Times Roman", "times", times, serif; 
                    font-size: 5px; }
 
 .container-medium { 
+                   clear:both;
                     height: 320px; 
                     width: 320px; 
                    font-family: "Times Roman", "times", times, serif; 
                     font-size: 10px;}
 
 .container-large { 
+                   clear:both;
                    height: 800px; 
                    width: 800px; 
                    font-family: "Times Roman", "times", times, serif; 
                    font-size: 30px;}
 
-.normalize-font { 
+.normalize-text { 
                   clear: both;
-                  font-size: 16px;
+                  font: 16px; /* Set to your font */
                   -moz-transform:rotate(0deg);
                   -webkit-transform:rotate(0deg);
                   o-transform:rotate(0deg);
                   ms-transform:rotate(0deg);
                   filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
- transform:rotate(0deg);
--webkit-transform: skew(0deg); 
-   -moz-transform: skew(0deg); 
-   -o-transform: skew(0deg);
-   transform: skew(0deg);
+                  transform:rotate(0deg);
+                  webkit-transform: skew(0deg); 
+                  moz-transform: skew(0deg); 
+                  o-transform: skew(0deg);
+                  transform: skew(0deg);
  }
 
 /*
