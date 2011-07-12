@@ -4,5 +4,12 @@ dropdown.css:
 	A dropdown menu to be used with TotallyBlankWordpressTheme: 
 	https://github.com/bittenoy/TotallyBlankWordpressTheme
 
+shapes.css:
+	   Dynamic CSS shapes, change only container size
+	   
+	   Gathered from different sources:
+	   http://css3shapes.com/
+	    http://css-tricks.com/examples/ShapesOfCSS/
+
 License: MIT 
 	 http://www.opensource.org/licenses/mit-license.php
