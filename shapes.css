@@ -1,5 +1,5 @@
 /* 
-   NOT ALL SHAPES YET USABLE
+   NOT ALL SHAPES YET USABLE, see examples
 
    Dynamic CSS shapes, change only container size
 
@@ -10,7 +10,6 @@
 
 
    License: MIT
-
    
    HOWTO:
    
@@ -26,8 +25,6 @@
 /* 
    Size containers: 
 */
-
-* {  margin: 10px }
 
 
 .container-small { 
