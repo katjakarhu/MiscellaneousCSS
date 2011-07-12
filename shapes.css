@@ -6,6 +6,8 @@
    Gathered from different sources:
    http://css3shapes.com/
    http://css-tricks.com/examples/ShapesOfCSS/
+   http://www.russellheimlich.com/blog/pure-css-shapes-triangles-delicious-logo-and-hearts/
+
 
    License: MIT
 
@@ -79,8 +81,9 @@
 
    .pentagon    .octagon    .hexagon 
    
-   .heart       .speech-bubble
-   .pacman      .biohazard
+   .pacman      .biohazard  .speech-bubble
+
+   .funkyShape  .heart
 
 */
 
@@ -487,41 +490,23 @@
                  width: 42px; 
                  height: 0; } 
 
-#heart { 
-         position: relative; 
-         width: 100px; 
-         height: 90px; } 
 
-#heart:before, #heart:after { 
-                              position: absolute; 
-                              content: ""; 
-                              left: 50px; 
-                              top: 0; 
-                              width: 50px; 
-                              height: 80px; 
-                              background: red; 
-                              moz-border-radius: 50px 50px 0 0; 
-                              border-radius: 50px 50px 0 0; 
-                              webkit-transform: rotate(-45deg); 
-                              moz-transform: rotate(-45deg); 
-                              ms-transform: rotate(-45deg); 
-                              o-transform: rotate(-45deg); 
-                              transform: rotate(-45deg); 
-                              webkit-transform-origin: 0 100%; 
-                              moz-transform-origin: 0 100%; 
-                              ms-transform-origin: 0 100%; 
-                              o-transform-origin: 0 100%; 
-                              transform-origin: 0 100%; } 
+.heart {
+border-color:red;
+border-style:dotted;
+border-width:0 30em 30em 0;
+height:0;
+margin-left:18em;
+margin-top:18em;
+width:0;
 
-#heart:after { 
-               left: 0; 
-               webkit-transform: rotate(45deg); 
-               moz-transform: rotate(45deg); 
-               ms-transform: rotate(45deg); 
-               o-transform: rotate(45deg); 
-               transform: rotate(45deg); 
-               webkit-transform-origin: 100% 100%; 
-               moz-transform-origin: 100% 100%; 
-               ms-transform-origin: 100% 100%; 
-               o-transform-origin: 100% 100%; 
-               transform-origin :100% 100%; } 
+
+}
+
+.funkyShape {
+border-color: yellow blue red green;
+border-style: dotted;
+border-width: 30em 30em 30em 30em;
+height: 0px;
+width: 0px;
+}
