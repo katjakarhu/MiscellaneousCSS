@@ -27,6 +27,9 @@
    Size containers: 
 */
 
+* {  margin: 10px }
+
+
 .container-small { 
                    clear:both;
                    height: 100px; 
@@ -223,41 +226,10 @@
                  transform: skew(20deg);
 }
 
-.star-twelve {
-               height: 30em;
-               width: 30em;
-               background: orange;
-               position: absolute;
-}
 
-.star-twelve:before {
-                      height: 30em;
-                      width: 30em;
-                      background: orange;
-                      content:"";
-                      position: absolute;
-                      /* Rotate */
-                      moz-transform: rotate(30deg);
-                      webkit-transform: rotate(30deg);
-                      ms-transform: rotate(30deg);
-                      o-transform: rotate(30deg);
-                      transform: rotate(30deg);
-}
 
-.star-twelve:after {
-                     height: 30em;
-                     width: 30em;
-                     background: orange;
-                     content:"";
-                     position: absolute;
 
-                     /* Rotate */
-                     moz-transform: rotate(-30deg);
-                     webkit-transform: rotate(-30deg);
-                     ms-transform: rotate(-30deg);
-                     o-transform: rotate(-30deg);
-                     transform: rotate(-30deg);
-}
+
 
 .star-six {
             position: absolute;
@@ -415,80 +387,54 @@
 
 
 
-#pentagon { 
+.pentagon { 
             position: relative; 
-            width: 54px; 
-            border-width: 50px 18px 0; 
+            width: 16.2em; 
+            border-width: 15em 5.4em 0; 
             border-style: solid; 
             border-color: red transparent; } 
 
-#pentagon:before { 
+.pentagon:before { 
                    content: ""; 
                    position: absolute; 
                    height: 0; 
                    width: 0; 
-                   top: -85px; 
-                   left: -18px; 
-                   border-width: 0 45px 35px; 
+                   top: -25.5em; 
+                   left: -5.4em; 
+                   border-width: 0 13.5em 10.5em; 
                    border-style: solid; 
                    border-color: transparent transparent red; }
 
 
 
-#hexagon { 
-           width: 100px; 
-           height: 55px; 
+.hexagon { 
+           width: 30em; 
+           height: 16.5em; 
            background: red; 
            position: relative; } 
 
-#hexagon:before { content: ""; 
+.hexagon:before { content: ""; 
                   position: absolute; 
-                  top: -25px; 
+                  top: -7.5em; 
                   left: 0; 
                   width: 0; 
                   height: 0; 
-                  border-left: 50px solid transparent; 
-                  border-right: 50px solid transparent; 
-                  border-bottom: 25px solid red; } 
+                  border-left: 15em solid transparent; 
+                  border-right: 15em solid transparent; 
+                  border-bottom: 7.5em solid red; } 
 
-#hexagon:after { 
+.hexagon:after { 
                  content: ""; 
                  position: absolute; 
-                 bottom: -25px; 
+                 bottom: -7.5em; 
                  left: 0; 
                  width: 0; 
                  height: 0; 
-                 border-left: 50px solid transparent; 
-                 border-right: 50px solid transparent; 
-                 border-top: 25px solid red; }
+                 border-left: 15em solid transparent; 
+                 border-right: 15em solid transparent; 
+                 border-top: 7.5em solid red; }
 
 
-#octagon { 
-           width: 100px; 
-           height: 100px; 
-           background: red; 
-           position: relative; } 
-
-#octagon:before { 
-                  content: ""; 
-                  position: absolute; 
-                  top: 0; 
-                  left: 0; 
-                  border-bottom: 29px solid red; 
-                  border-left: 29px solid #eee; 
-                  border-right: 29px solid #eee; 
-                  width: 42px; height: 0; } 
-
-#octagon:after { 
-                 content: ""; 
-                 position: absolute; 
-                 bottom: 0; 
-                 left: 0; 
-                 border-top: 29px solid red; 
-                 border-left: 29px solid #eee; 
-                 border-right: 29px solid #eee; 
-                 width: 42px; 
-                 height: 0; } 
 
 
 .heart {
@@ -506,7 +452,45 @@ width:0;
 .funkyShape {
 border-color: yellow blue red green;
 border-style: dotted;
-border-width: 30em 30em 30em 30em;
+border-width: 15em 15em 15em 15em;
 height: 0px;
 width: 0px;
+}
+
+
+.star-twelve {
+   height: 30em;
+   width: 30em;
+   background: orange;
+   position: absolute;
+}
+
+
+.star-twelve:before {
+   height: 30em;
+   width: 30em;
+   background: orange;
+   content:"";
+   position: absolute;
+   /* Rotate */
+   -moz-transform: rotate(30deg);
+   -webkit-transform: rotate(30deg);
+   -ms-transform: rotate(30deg);
+   -o-transform: rotate(30deg);
+   transform: rotate(30deg);
+}
+
+
+.star-twelve:after {
+   height: 30em;
+   width: 30em;
+   background: orange;
+   content:"";
+   position: absolute;
+   /* Rotate */
+   -moz-transform: rotate(-30deg);
+   -webkit-transform: rotate(-30deg);
+   -ms-transform: rotate(-30deg);
+   -o-transform: rotate(-30deg);
+   transform: rotate(-30deg);
 }
