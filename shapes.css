@@ -50,12 +50,11 @@
 
 .normalize-text { 
                   clear: both;
-                  font: 16px; /* Set to your font */
+                  font-size: 16px; /* Set to your font */
                   -moz-transform:rotate(0deg);
                   -webkit-transform:rotate(0deg);
                   o-transform:rotate(0deg);
                   ms-transform:rotate(0deg);
-                  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
                   transform:rotate(0deg);
                   webkit-transform: skew(0deg); 
                   moz-transform: skew(0deg); 
