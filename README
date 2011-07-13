@@ -4,12 +4,11 @@ dropdown.css:
 	A dropdown menu to be used with TotallyBlankWordpressTheme: 
 	https://github.com/bittenoy/TotallyBlankWordpressTheme
 
+dropright.css
+	A vertical menu to be used with TotallyBlankWordpressTheme: 
+	https://github.com/bittenoy/TotallyBlankWordpressTheme
+
 shapes.css:
-	   Dynamic CSS shapes, change only container size
-	   
-	   Gathered from different sources:
-	   http://css3shapes.com/
-	   http://css-tricks.com/examples/ShapesOfCSS/
-	   http://www.russellheimlich.com/blog/pure-css-shapes-triangles-delicious-logo-and-hearts/
-	   
+	2011-07-13: Moved to own respository
+
 License: Public Domain
