@@ -1,5 +1,4 @@
 /* 
-   NOT ALL SHAPES YET USABLE, see examples
 
    Dynamic CSS shapes, change only container size
 
@@ -32,7 +31,8 @@
                    height: 100px; 
                    width: 100px; 
                    font-family: "Times Roman", "times", times, serif; 
-                   font-size: 5px; }
+                   font-size: 5px;
+                   }
 
 .container-medium { 
                    clear:both;
@@ -180,29 +180,29 @@
 
 .trapezium {
              height: 0;
-             width: 30em;
-             border-bottom: 30em solid blue;
+             width: 20em;
+             border-bottom: 25em solid blue;
              border-left: 15em solid transparent;
              border-right: 15em solid transparent;
 }
 
 .diamond { /* aka rectangle rotated 90 degrees */
-           width: 100%; 
-           height: 100%; 
-           background: purple;
-           margin: 3.75% 0 0 37.5%;
-           /* Rotate */
-           webkit-transform: rotate(-45deg);
-           moz-transform: rotate(-45deg);
-           ms-transform: rotate(-45deg);
-           o-transform: rotate(-45deg);
-           transform: rotate(-45deg);
-           /* Rotate Origin */
-           webkit-transform-origin: 0 100%;
-           moz-transform-origin: 0 100%;
-           ms-transform-origin: 0 100%;
-           o-transform-origin: 0 100%;
-           transform-origin: 0 100%;
+     width: 30em; 
+   height: 30em; 
+   background: purple;
+   margin: 1em 0 0 22em;
+   /* Rotate */
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   /* Rotate Origin */
+   -webkit-transform-origin: 0 100%;
+   -moz-transform-origin: 0 100%;
+   -ms-transform-origin: 0 100%;
+   -o-transform-origin: 0 100%;
+   transform-origin: 0 100%;
 }
 
 .rectangle {
@@ -212,14 +212,15 @@
 }
 
 .parallelogram {
-                 width: 100%; 
-                 height: 58%;
-                 background: pink;
-                 /* Skew */
-                 webkit-transform: skew(20deg); 
-                 moz-transform: skew(20deg); 
-                 o-transform: skew(20deg);
-                 transform: skew(20deg);
+            width: 30em; 
+   height: 17.3em;
+   background: pink;
+   margin: 0 0 0 5em;
+   /* Skew */
+   -webkit-transform: skew(20deg); 
+   -moz-transform: skew(20deg); 
+   -o-transform: skew(20deg);
+   transform: skew(20deg);
 }
 
 
@@ -388,7 +389,9 @@
             width: 16.2em; 
             border-width: 15em 5.4em 0; 
             border-style: solid; 
-            border-color: red transparent; } 
+            border-color: red transparent;
+
+            position: relative;} 
 
 .pentagon:before { 
                    content: ""; 
@@ -407,7 +410,8 @@
            width: 30em; 
            height: 16.5em; 
            background: red; 
-           position: relative; } 
+           position: relative; 
+           }
 
 .hexagon:before { content: ""; 
                   position: absolute; 
@@ -436,12 +440,23 @@
 .heart {
 border-color:red;
 border-style:dotted;
-border-width:0 30em 30em 0;
+border-width:0 20em 20em 0;
 height:0;
-margin-left:18em;
-margin-top:18em;
-width:0;
+margin-left:3em;
 
+width:0;
+   /* Rotate */
+   -webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   -o-transform: rotate(45deg);
+   transform: rotate(45deg);
+   /* Rotate Origin */
+   -webkit-transform-origin: 0 100%;
+   -moz-transform-origin: 0 100%;
+   -ms-transform-origin: 0 100%;
+   -o-transform-origin: 0 100%;
+   transform-origin: 0 100%;
 
 }
 
@@ -458,7 +473,8 @@ width: 0px;
    height: 30em;
    width: 30em;
    background: orange;
-   position: absolute;
+
+   margin: 5em;
 }
 
 
