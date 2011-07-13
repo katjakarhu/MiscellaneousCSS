@@ -1,0 +1,80 @@
+/* 
+   Dropup navigation to be used with TotallyBlankWordpressTheme:
+   https://github.com/bittenoy/TotallyBlankWordpressTheme
+
+   Or any other Wordpress theme, just modify class/element names accordingly.
+*/
+
+
+/* General menu settings */
+#header nav {
+     margin: 0 auto;
+     padding: 0;
+     position: relative;
+     line-height: 1em;
+     list-style: none;
+     height: 2em;
+}
+
+#header nav ul {
+     list-style: none;
+ 
+}
+
+/* Settings for top level menu items (pages) */ 
+#header nav ul li {
+     float: left;
+     position: relative;
+     margin-right: 0.5em;
+}
+ 
+#header nav ul li a {
+     text-decoration:none;
+     display:block;
+/*     background-color: ; */
+     padding: 0 1em;
+     height: 2em;
+}
+
+#header nav ul li a:hover {
+/* background: rgba(255, 255, 255, 0.5); */
+}
+
+/* Settings for current page menu item */
+#header nav li.current_page_item a { 
+/* background: rgba(0, 0, 0, 0.5); */
+
+}
+
+#header nav ul li ul {
+     position:absolute;
+     left:-9999px;
+}
+
+/* Dropdown list settings */ 
+#header nav ul li:hover ul {
+     display: block;
+
+     position: absolute;
+     list-style: none;
+     left: 0;
+     top: -300%; /* 1 menu item = 100% */
+     background-color: white;
+
+
+}
+ 
+
+/* Dropdown item settings */
+#header nav ul li:hover ul li a {
+
+     display:block;
+     text-align: left;
+     padding: 0 1em;
+     white-space:nowrap; /* Don't wrap text */                            
+ 
+}
+
+#header nav ul li:hover ul li a:hover {
+/* background: rgba(255, 255, 255, 0.5); */
+}
